@@ -72,6 +72,7 @@ episodes:
 - cuda_conda_pacakges.md
 - pixi_deployment.md
 - backwards_compatibility.md
+- ml_environments.md
 
 # Information for Learners
 learners:
