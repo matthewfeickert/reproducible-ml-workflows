@@ -73,6 +73,7 @@ episodes:
 - conda_pacakges.md
 - cuda_conda_pacakges.md
 - pixi_deployment.md
+- ml_environments.md
 
 # Information for Learners
 learners:
