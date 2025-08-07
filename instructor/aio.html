@@ -679,7 +679,7 @@ any links that you are not going to use.
  -->
 </section></section><section id="aio-pixi_intro"><p>Content from <a href="pixi_intro.html">Introduction to Pixi</a></p>
 <hr>
-<p>Last updated on 2025-06-17 |
+<p>Last updated on 2025-08-07 |
 
         <a href="https://github.com/carpentries-incubator/reproducible-ml-workflows/edit/main/episodes/pixi_intro.md" class="external-link">Edit this page <i aria-hidden="true" data-feather="edit"></i></a></p>
 <p>Estimated time: <i aria-hidden="true" data-feather="clock"></i> 45 minutes</p>
@@ -706,11 +706,10 @@ any links that you are not going to use.
 <div class="inner bordered">
 <h3 class="card-title">Objectives</h3>
 <ul>
-<li>Learn Pixi’s workflow design</li>
-<li>Understand the relationship between a Pixi manifest and a lock
+<li>Outline Pixi’s workflow design</li>
+<li>Summarize the relationship between a Pixi manifest and a lock
 file</li>
-<li>Understand how to create a multi-platform and multi-environment Pixi
-workspace</li>
+<li>Create a multi-platform and multi-environment Pixi workspace</li>
 </ul>
 </div>
 </div>
@@ -723,17 +722,17 @@ workspace</li>
 <p>As described in the previous section on computational
 reproducibility, to have reproducible software environments we need
 tools that can take high level human writeable environment configuration
-files and produce machine readable hash level lock files that exactly
+files and produce machine-readable, digest-level lock files that exactly
 specify every piece of software that exists in an environment.</p>
-<p><a href="https://www.pixi.sh/" class="external-link">Pixi</a> a cross-platform package and
-environment manager that can handle complex development workflows.
+<p><a href="https://www.pixi.sh/" class="external-link">Pixi</a> is a cross-platform package
+and environment manager that can handle complex development workflows.
 Importantly, Pixi automatically and non-optionally will produce or
 update a lock file for the software environments defined by the user
 whenever any actions mutate the environment. Pixi is written in Rust,
 and leverages the language’s speed and technologies to solve
 environments fast.</p>
 <p>Pixi addresses the concept of computational reproducibility by
-focusing on a set of main features</p>
+focusing on a set of main features:</p>
 <ol style="list-style-type: decimal">
 <li>
 <strong>Virtual environment management</strong>: Pixi can create
@@ -748,7 +747,7 @@ install, update, and remove packages from these environments through the
 built-in, which allows for tasks with custom logic and dependencies on
 other tasks to be created.</li>
 </ol>
-<p>combined with robust behaviors</p>
+<p>It also combines these features with robust behaviors:</p>
 <ol style="list-style-type: decimal">
 <li>
 <strong>Automatic lock files</strong>: Any changes to a Pixi
@@ -1815,7 +1814,7 @@ used.</p>
   Possible answers
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb2">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -1900,7 +1899,7 @@ Python packages or source packages.</p>
   Possible answers
   </h4>
 </button>
-<div id="collapseSolution2" class="accordion-collapse collapse" aria-labelledby="headingSolution2" data-bs-parent="#accordionSolution2">
+<div id="collapseSolution2" class="accordion-collapse collapse" data-bs-parent="#accordionSolution2" aria-labelledby="headingSolution2">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb6">
 <h3 class="code-label">BASH<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -2952,7 +2951,7 @@ scientific field that are more niche.</p>
   Some packages
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Research packages:</p>
 <ul>
@@ -3576,7 +3575,7 @@ GPU version of PyTorch</li>
 <button class="accordion-button solution-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSolution1" aria-expanded="false" aria-controls="collapseSolution1">
   <h4 class="accordion-header" id="headingSolution1"> Show me the solution </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
 <div class="accordion-body">
 <p>Create a new workspace</p>
 <div class="codewrapper sourceCode" id="cb33">
@@ -4037,7 +4036,7 @@ of the CUDA conda packages episode to
   Dockerfile walkthrough
   </h3>
 </button>
-<div id="collapseSpoiler1" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler1" aria-labelledby="headingSpoiler1">
+<div id="collapseSpoiler1" class="accordion-collapse collapse" aria-labelledby="headingSpoiler1" data-bs-parent="#accordionSpoiler1">
 <div class="accordion-body">
 <p>Let’s step through this to understand what’s happening.
 <code>Dockerfile</code>s (intentionally) look very shell script like,
@@ -4180,7 +4179,7 @@ workspace.</p>
   A possible solution
   </h4>
 </button>
-<div id="collapseSolution1" class="accordion-collapse collapse" data-bs-parent="#accordionSolution1" aria-labelledby="headingSolution1">
+<div id="collapseSolution1" class="accordion-collapse collapse" aria-labelledby="headingSolution1" data-bs-parent="#accordionSolution1">
 <div class="accordion-body">
 <div class="codewrapper sourceCode" id="cb10">
 <h3 class="code-label">DOCKERFILE<i aria-hidden="true" data-feather="chevron-left"></i><i aria-hidden="true" data-feather="chevron-right"></i>
@@ -4408,7 +4407,7 @@ pixi list</code></pre>
   Apptainer walkthrough
   </h3>
 </button>
-<div id="collapseSpoiler2" class="accordion-collapse collapse" data-bs-parent="#accordionSpoiler2" aria-labelledby="headingSpoiler2">
+<div id="collapseSpoiler2" class="accordion-collapse collapse" aria-labelledby="headingSpoiler2" data-bs-parent="#accordionSpoiler2">
 <div class="accordion-body">
 <ul>
 <li>The Apptainer definition file is broken out into specific <a href="https://apptainer.org/docs/user/main/definition_files.html#sections" class="external-link">operation
