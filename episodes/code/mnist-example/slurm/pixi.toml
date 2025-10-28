@@ -1,7 +1,6 @@
 [workspace]
-authors = ["Matthew Feickert <matthew.feickert@cern.ch>"]
 channels = ["conda-forge"]
-name = "htcondor"
+name = "slurm"
 platforms = ["linux-64", "osx-arm64", "win-64"]
 version = "0.1.0"
 
