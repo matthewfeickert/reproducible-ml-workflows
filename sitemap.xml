@@ -16,6 +16,9 @@
     <loc>https://carpentries-incubator.github.io/reproducible-ml-workflows/backwards-compatibility.html</loc>
   </url>
   <url>
+    <loc>https://carpentries-incubator.github.io/reproducible-ml-workflows/citation.html</loc>
+  </url>
+  <url>
     <loc>https://carpentries-incubator.github.io/reproducible-ml-workflows/conda-pacakges.html</loc>
   </url>
   <url>
@@ -47,6 +50,9 @@
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/reproducible-ml-workflows/instructor/backwards-compatibility.html</loc>
+  </url>
+  <url>
+    <loc>https://carpentries-incubator.github.io/reproducible-ml-workflows/instructor/citation.html</loc>
   </url>
   <url>
     <loc>https://carpentries-incubator.github.io/reproducible-ml-workflows/instructor/conda-pacakges.html</loc>
